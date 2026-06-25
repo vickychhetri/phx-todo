@@ -92,6 +92,9 @@ This demo shows PHX handling API traffic efficiently in a single-runtime setup. 
 
 These numbers demonstrate raw request throughput and latency that compare favorably to many standard PHP deployments, especially when PHX is used as a built-in runtime server rather than relying on a separate web server.
 
+<img width="1236" height="930" alt="image" src="https://github.com/user-attachments/assets/0d95f52f-8ddb-43e6-b7e3-94408bf2a92b" />
+
+
 ## Notes
 
 This repository is intended as a developer demo for building applications on the PHX runtime. It demonstrates runtime app composition and a simple MVC-style structure without a full framework.
