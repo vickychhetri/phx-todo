@@ -46,10 +46,19 @@ Use the PHX runtime for development and runtime execution. Check the repository 
 ## Running the demo
 
 1. Ensure MySQL is running and the `todo_app` database exists.
-2. Start the PHX runtime and load `index.php`. No separate web server is required because PHX includes a built-in HTTP server.
+2. Use the PHX runtime directly, or build a standalone executable.
+
+Run directly:
 
 ```bash
 phx run index.php
+```
+
+Build the app and run the generated binary:
+
+```bash
+./phx build -o todowebapp index.php
+./todowebapp
 ```
 
 3. Open the browser at:
